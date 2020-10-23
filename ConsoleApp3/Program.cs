@@ -10,7 +10,7 @@ namespace ConsoleApp3
             var name = Console.ReadLine();
             Console.Write("Введите ваш возраст ");
             var age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ваше имя: {0}, ваш возраст: {1}", name, age);
+            Console.WriteLine("Ваше имя: {0}, возраст: {1}", name, age);
             Console.Write("Введите дату вашего рождения ");
             var birthdate = Console.ReadLine();
             Console.WriteLine("Дата вашего рождения: {0}", birthdate);
